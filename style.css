@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+h1, h2 {
+  font-family: "alteroregular";
+}
+
+p, li {
+   font-family: "Roboto Condensed";
+}
+
+.navbar {
+   font-family: "alteroregular";
+   font-size: 28px;
+   background-color: #e3f2fd;
+}
+
+.navbar-brand {
+   font-size: 35px;
+}
+
+.headshot img {
+   position: absolute;
+   left: 240px;
+   top: 31px;
+   z-index: -1;
+}
+
+.first h1 {
+   font-size: 150px;
+   position: absolute;
+   left: 856px;
+   top: 200px;
+   z-index: -1;
+}
+
+.last h1 {
+   font-size: 150px;
+   position: absolute;
+   left: 856px;
+   top: 330px;
+   z-index: -1;
+}
+
+.tagline p {
+   font-size: 30px;
+   position: absolute;
+   left: 987px;
+   top: 576px;
+   z-index: -1;
+}
+
+.themes h2 {
+   line-height: 0.65;
+}
+
+.present h {
+   font-family: "alteroregular";
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  margin: 8px;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 25px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+
+}
+
+@font-face {
+font-family: "alteroregular";
+src: url("fonts/altero-regular-webfont.eot");
+src:
+url("fonts/altero-regular-webfont.woff") format("woff"),
+url("fonts/altero-regular-webfont.otf") format("opentype"),
+url("fonts/altero-regular-webfont.svg#filename") format("svg");
+}
